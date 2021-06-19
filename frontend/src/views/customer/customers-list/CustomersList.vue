@@ -90,7 +90,7 @@
         :per_page="customers.per_page"
       >
 
-        <template #cell(name)="data">
+        <!-- <template #cell(name)="data">
           <b-media vertical-align="center">
             <template #aside>
               <b-avatar
@@ -109,7 +109,7 @@
             </b-link>
             <small v-if="data.item.username" class="text-muted">@{{ data.item.username }}</small>
           </b-media>
-        </template>
+        </template> -->
 
         <template #cell(email)="data">
           <div class="text-nowrap">
